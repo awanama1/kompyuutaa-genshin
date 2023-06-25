@@ -1,0 +1,169 @@
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #554d7d;
+    z-index: 3;    
+}
+
+.dropdown-nav__close {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+
+
+}
+
+.dropdown-nav__container {
+    height: 100vh;
+    padding: 10% 3vw 0 3vw;
+
+}
+
+.nav-text {
+    font-size: 5vw;
+    border: none;
+    border-bottom: 0.1vw solid #292929; 
+    margin-left: 5vw;
+    padding-bottom: 1vw;
+}
+
+
+
+
+.header {
+    z-index: 2;
+
+}
+
+
+html {
+    background-color: #f9f9fb;
+}
+.hero {
+    position: relative;
+    background-image: url(img/ph.webp);
+    background-color: #f9f9fb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    aspect-ratio: 9 / 16;
+ 
+}
+
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        position: relative;
+        background-image: url(img/desk.webp);
+        background-color: #f9f9fb;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        aspect-ratio: 16 / 9;
+
+    }
+
+}
+
+
+
+.text {
+    text-align: center;
+
+}
+
+.development {
+    position: relative;
+    background-color: #f9f9fb;
+    padding: 0 15vw 3vw 15vw;
+    min-height: 15vw;
+
+}
+.container {
+
+
+}
+
+.btn {
+
+}
+
+.keterangan {
+    font-size: 2vw;
+    @media only screen and (min-width: 768px) {
+        font-size: 1.7vw;
+    }
+}
+
+.head {
+    font-size: 3.6vw;
+    font-weight: 500;
+    @media only screen and (min-width: 768px) {
+        font-size: 3vw;
+    }
+}
+
+
+.story {
+    position: relative;
+    background-image: url(img/test4.webp);
+    background-color: #f9f9fb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    aspect-ratio: 9 / 16;
+        @media only screen and (min-width: 768px) {
+            position: relative;
+            background-image: url(img/test.webp);
+            background-color: #f9f9fb;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+            aspect-ratio: 16 / 9; 
+        }
+    .content {
+        position: absolute;
+        top: 50%;
+        padding: 0 14vw;
+            @media only screen and (min-width: 768px) {
+                position: absolute;
+                top: 30%;
+                right: 37%;
+                padding: 0 4vw;
+                
+
+            }
+    }
+    .main-head {
+        font-size: 4vw;
+        font-weight: 550;
+        @media only screen and (min-width: 768px) {
+            font-size: 3.3vw;
+        }
+
+    }
+    .main-keterangan {
+        font-size: 2.4vw;
+        @media only screen and (min-width: 768px) {
+            font-size: 2vw;
+        }
+    }
+    padding: 0 15vw 3vw 15vw;
+
+    
+}
+.mechanic {
+    position: relative;
+    background-image: url(img/mechanic.webp);
+    background-color: #f9f9fb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    aspect-ratio: 9 / 16;
+
+}
+
+

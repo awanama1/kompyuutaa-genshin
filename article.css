@@ -1,0 +1,58 @@
+:root {
+    primary-color: #201932;
+}
+
+html {
+    background-color: #393b5a;
+
+}
+
+.navbar-brand {
+    filter: invert(97%) sepia(27%) saturate(256%) hue-rotate(239deg) brightness(87%) contrast(95%);
+
+}
+
+.nav-link {
+    color: #d9d1d9;
+}
+
+#navbarNavAltMarkup {
+    background-color: #1e1a32;
+    z-index: 2;
+}
+
+#menu {
+    filter: invert(97%) sepia(27%) saturate(256%) hue-rotate(239deg) brightness(87%) contrast(95%);
+}
+
+.content {
+    background-color: #201932;
+    position: absolute;
+    border-top: 0.3vw solid #ebe0fa;
+    border-left: 0.1vw solid #362c4f;
+    border-right: 0.1vw solid #362c4f;
+    border-bottom: 0.1vw solid #362c4f;
+        @media only screen and (min-width: 768px) {
+            position: absolute;
+            max-width: 89%;
+            right: 5.5%;
+            top: 15%;
+            
+        }
+    .text {
+        margin-top: 3vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+}
+
+.text {
+    color: white;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.table {
+    background-color: #161124;
+}

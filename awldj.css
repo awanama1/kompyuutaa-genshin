@@ -1,0 +1,32 @@
+.story {
+    background-image: url(img/ph.webp);
+    background-color: blue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    overflow: hidden;
+    min-height: 90rem;
+ 
+}
+
+@media only screen and (min-width: 768px) {
+    .story {
+        background-image: url(img/desk.webp);
+        background-color: blue;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    position: relative;
+    background-image: url(img/test.webp);
+    background-color: #f9f9fb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    aspect-ratio: 16 / 9;
